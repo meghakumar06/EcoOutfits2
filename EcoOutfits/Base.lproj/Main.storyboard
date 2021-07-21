@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EcoOutfits" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  About Us" borderStyle="roundedRect" minimumFontSize="140" translatesAutoresizingMaskIntoConstraints="NO" id="1lC-vl-LRt">
+                                <rect key="frame" x="0.0" y="789" width="212" height="42"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.81413645499999998" green="0.94516295189999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <segue destination="6fe-kb-wtm" kind="show" id="egh-C7-ZRZ"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Helping you shop ethically &amp; sustainably " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gvI-gu-Tcq">
+                                <rect key="frame" x="20" y="416" width="374" height="93"/>
+                                <color key="textColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="33"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wka-ic-Cgt">
+                                <rect key="frame" x="0.0" y="540" width="414" height="219"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.8862745098" green="0.93725490199999995" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EcoOutfitsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Cx3-bJ-gVb">
+                                <rect key="frame" x="0.0" y="185" width="414" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" EcoOutfits" borderStyle="roundedRect" minimumFontSize="100" translatesAutoresizingMaskIntoConstraints="NO" id="lF3-1O-ybM">
+                                <rect key="frame" x="0.0" y="45" width="414" height="94"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kW-WA-2Je">
+                                <rect key="frame" x="155" y="147" width="104" height="47"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nf-6u-fYt">
+                                <rect key="frame" x="0.0" y="150" width="69" height="47"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC2-Ey-VTK">
+                                <rect key="frame" x="336" y="146" width="58" height="47"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="Shop">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJy-8y-eVA">
+                                <rect key="frame" x="193" y="622" width="38" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="$$"/>
+                                <connections>
+                                    <segue destination="NQR-Iz-ix6" kind="show" id="wGS-Jq-A8w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewH-cx-cX3">
+                                <rect key="frame" x="184" y="678" width="56" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="$$$"/>
+                                <connections>
+                                    <segue destination="s7f-fE-pWP" kind="show" id="Kox-b7-bT4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHw-Db-d1m">
+                                <rect key="frame" x="197" y="566" width="30" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="$"/>
+                                <connections>
+                                    <segue destination="jUo-g5-ti7" kind="show" id="MMt-VW-6cu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.88627450980392153" green="0.93725490196078431" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MC2-Ey-VTK" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="8" symbolic="YES" id="1sI-cp-W3o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gvI-gu-Tcq" secondAttribute="trailing" constant="20" id="5ps-sE-NFD"/>
+                            <constraint firstItem="lF3-1O-ybM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F69-FX-C42"/>
+                            <constraint firstItem="1lC-vl-LRt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jjh-yY-tOw"/>
+                            <constraint firstItem="Wka-ic-Cgt" firstAttribute="top" secondItem="1lC-vl-LRt" secondAttribute="bottom" constant="11" id="LHg-sT-9eZ"/>
+                            <constraint firstItem="3Nf-6u-fYt" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="11" id="Ljy-zq-9oz"/>
+                            <constraint firstItem="Wka-ic-Cgt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MnR-1r-qVj"/>
+                            <constraint firstItem="1kW-WA-2Je" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="9" id="QlV-mH-5cu"/>
+                            <constraint firstItem="1kW-WA-2Je" firstAttribute="leading" secondItem="3Nf-6u-fYt" secondAttribute="trailing" constant="33" id="RqK-z0-6JF"/>
+                            <constraint firstItem="lF3-1O-ybM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1" id="Xsa-89-ttC"/>
+                            <constraint firstItem="3Nf-6u-fYt" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="11" id="b8s-tc-YNH"/>
+                            <constraint firstItem="Wka-ic-Cgt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bGY-R6-6wR"/>
+                            <constraint firstItem="1lC-vl-LRt" firstAttribute="top" secondItem="gvI-gu-Tcq" secondAttribute="bottom" constant="24" id="bZe-AF-2Ym"/>
+                            <constraint firstItem="1kW-WA-2Je" firstAttribute="leading" secondItem="3Nf-6u-fYt" secondAttribute="trailing" constant="33" id="eZN-MY-bwi"/>
+                            <constraint firstItem="gvI-gu-Tcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fTH-oJ-cqt"/>
+                            <constraint firstItem="3Nf-6u-fYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="geG-Vh-I1G"/>
+                            <constraint firstItem="MC2-Ey-VTK" firstAttribute="leading" secondItem="1kW-WA-2Je" secondAttribute="trailing" constant="33" id="jmb-sM-6wn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1lC-vl-LRt" secondAttribute="trailing" constant="202" id="kcz-HQ-IpR"/>
+                            <constraint firstItem="1kW-WA-2Je" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="9" id="ltz-48-OQH"/>
+                            <constraint firstItem="3Nf-6u-fYt" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="11" id="n6k-rl-iTu"/>
+                            <constraint firstItem="lF3-1O-ybM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p9C-oP-fkY"/>
+                            <constraint firstItem="1kW-WA-2Je" firstAttribute="top" secondItem="lF3-1O-ybM" secondAttribute="bottom" constant="9" id="xnT-rN-prQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="openingAboutDescription" destination="Wka-ic-Cgt" id="i9k-hc-hRi"/>
+                        <outlet property="openingAboutUs" destination="1lC-vl-LRt" id="1r5-fv-ssT"/>
+                        <outlet property="openingDescription" destination="gvI-gu-Tcq" id="jwH-Jh-tEo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ejM-lM-hsO">
+            <objects>
+                <viewController id="6fe-kb-wtm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OsW-cR-q7t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" EcoOutfits" borderStyle="roundedRect" minimumFontSize="100" translatesAutoresizingMaskIntoConstraints="NO" id="5AC-ib-3gg">
+                                <rect key="frame" x="0.0" y="20" width="414" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SS6-hd-dJ3">
+                                <rect key="frame" x="298" y="122" width="116" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="Shop">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFJ-jr-3KO">
+                                <rect key="frame" x="149" y="123" width="116" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHB-7d-4Hz">
+                                <rect key="frame" x="0.0" y="125" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.70196078429999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.94117647059999998" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qee-T4-rkJ">
+                                <rect key="frame" x="10" y="249" width="394" height="522"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.93725490199999995" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Did you know that fashion production makes up 10% of carbon emissions? The fashion industry is responsible for more annual carbon emissions than all international flights and maritime shipping combined. This is why we made EcoOutfits.
+
+EcoOutfits is an app that rates stores based on how ethical and sustainabe it is so you can wear all of your favorite outfits while helping the environment.
+</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="About Us" textAlignment="natural" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="f7E-X3-ewV">
+                                <rect key="frame" x="10" y="190" width="245" height="60.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="37"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uDQ-5l-BZx"/>
+                        <color key="backgroundColor" red="0.8862745098" green="0.93725490199999995" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g2F-Oc-0ZH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMT-Eq-yGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665.21739130434787" y="81.696428571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="A6c-GC-bWw">
+            <objects>
+                <viewController id="jUo-g5-ti7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fU1-iN-2zn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HEI-dm-dVe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TAq-Ru-WT7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kR5-sF-Alj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-658" y="826"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xac-fs-juw">
+            <objects>
+                <viewController id="NQR-Iz-ix6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hD9-2h-rQs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gTX-WG-sMg"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xj2-1o-KyZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NzP-Zx-F0p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="292" y="808"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="chU-iE-HGM">
+            <objects>
+                <viewController id="s7f-fE-pWP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aYf-9Z-Htu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Hfi-w8-viy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UsG-au-aaw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xYl-Le-2Uw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1155" y="815"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EcoOutfitsLogo" width="1750" height="906"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
