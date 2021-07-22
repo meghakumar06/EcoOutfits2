@@ -8,13 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//HomePage
     
-    @IBOutlet weak var openingText: UITextField!
-    @IBOutlet weak var openingImage: UIImageView!
-    @IBOutlet weak var openingDescription: UITextView!
-    @IBOutlet weak var openingAboutUs: UITextField!
-    @IBOutlet weak var openingAboutDescription: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
